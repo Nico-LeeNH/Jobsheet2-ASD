@@ -5,6 +5,17 @@ public class Dosen20 {
     int tahunBergabung;
     String bidangKeahlian;
 
+    public Dosen20() {
+
+    }
+
+    public Dosen20(String id, String nm, Boolean st, String bk) {
+        idDosen = id;
+        nama = nm;
+        statusAktif = st;
+        bk = bidangKeahlian;
+    }
+    
     void tampilInformasi() {
         System.out.println("id dosen: " + idDosen);
         System.out.println("Nama: " + nama);
