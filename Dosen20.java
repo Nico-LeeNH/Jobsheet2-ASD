@@ -9,13 +9,14 @@ public class Dosen20 {
 
     }
 
-    public Dosen20(String id, String nm, Boolean st, String bk) {
+    public Dosen20(String id, String nm, Boolean st, int th, String bk) {
         idDosen = id;
         nama = nm;
         statusAktif = st;
+        tahunBergabung = th;
         bk = bidangKeahlian;
     }
-    
+
     void tampilInformasi() {
         System.out.println("id dosen: " + idDosen);
         System.out.println("Nama: " + nama);
